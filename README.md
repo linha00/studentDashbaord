@@ -1,6 +1,11 @@
 # NUSGS Test Project
 A simplified PhD student dashboard designed to track academic progress. It includes features such as a module completion tracker, countdowns for PQE and PhD defense dates, and a duty hours tracker. A custom form allows dynamic input and updating of data on the dashboard using PHP, focusing on functionality and interactivity.
 
+## Tech Stack
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** PHP
+* **Server:** Local PHP built-in server
+
 ## Software Requirements
 PHP installed on your system.
 
@@ -21,3 +26,11 @@ PHP installed on your system.
    ```
 4. Open your browser and go to `http://localhost:8000` to view the page.
 
+# How to Use
+* **Module Completion Tracking:** Use the custom form to input and update the number of completed modules. The progress towards graduation will be reflected on the dashboard.
+* **PQE and PhD Defense Countdown:** Set the dates for PQE and PhD defense using the date picker. The dashboard will display the countdown to these events.
+* **Duty Hours Tracker:** Input the completed hours for Teaching, Research, and Other Duties. The dashboard will update the progress for each duty type accordingly.
+* **Dynamic Form:** The custom form allows users to input data, and the dashboard will dynamically reflect the changes without the need for a database.
+
+## Screenshots
+![screenshot](./images/dashboard.gif)
